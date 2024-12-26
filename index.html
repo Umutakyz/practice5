@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Random Numbers and Strings</title>
+  <style>
+    #random_numbers {
+      display: flex;
+      gap: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Random Numbers and Strings</h1>
+
+  <div>
+    <p>Random numbers sum is <span id="sum">0</span></p>
+    <p>Random numbers:</p>
+    <div id="random_numbers"></div>
+    <button id="generate_number">Generate Number</button>
+    <button id="delete_blue">Delete 'Blue' Numbers</button>
+  </div>
+
+  <div id="random_strings">
+    <h2>Random Strings</h2>
+    <button id="add_string">Add Random String</button>
+    <button id="delete_string">Delete Random String</button>
+    <button id="show_strings">Show All Strings</button>
+  </div>
+
+  <script type="module" src="./main.js"></script>
+</body>
+</html>
